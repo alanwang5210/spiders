@@ -1,0 +1,19 @@
+# 项目依赖
+Scrapy>=2.11.0
+python-dotenv>=1.0.0
+itemadapter>=0.8.0
+requests>=2.31.0
+# 验证码处理相关依赖
+# 取消注释以下行并安装对应的包以启用自动验证码识别
+# 2captcha-python>=1.2.0  # 2Captcha服务
+# anticaptchaofficial>=1.0.0  # Anti-Captcha服务
+# pytesseract>=0.3.10  # 本地OCR识别
+# Pillow>=10.0.0  # 图像处理
+
+# 滑块验证码处理相关依赖
+# 取消注释以下行并安装对应的包以启用自动滑块验证码处理
+# selenium>=4.15.0  # 浏览器自动化工具
+# webdriver-manager>=4.0.0  # WebDriver管理工具
+# playwright>=1.40.0  # 现代浏览器自动化工具
+# opencv-python>=4.8.0  # 图像处理库
+# numpy>=1.26.0  # 数值计算库
